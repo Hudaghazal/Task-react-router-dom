@@ -7,18 +7,6 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
-  .items{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    list-style-type: none;
-  }
-  a{
-    text-decoration: none;
-    color: black;
-  }
   h2{
     text-align: center;
     margin-top: 50px;

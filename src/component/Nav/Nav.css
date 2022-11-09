@@ -1,0 +1,13 @@
+
+  .items{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }

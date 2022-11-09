@@ -1,31 +1,30 @@
-import { Routes, Route ,Link} from "react-router-dom";
-import{Home ,About,Contact,More} from "../src/component/index";
+import { Routes, Route } from "react-router-dom";
+import Nav from './component/Nav/Nav'
+import Home from './component/Home/Home'
+import About from './component/About/About'
+import Contact from './component/Contact/Contact'
+import More from './component/More/More'
+
 import './App.css';
 
 function App() {
   return (
     <>
      <div className="app">
+      
+     <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/more" element={<More />} />
-      </Routes>
+      </Routes> 
+
     </div>
-    <nav className="nav">
-      <ul className="items">
-       <li><Link to="/">Home</Link></li> 
-       <li><Link to="/about">About</Link></li> 
-       <li><Link to="/contact">Contact</Link></li> 
-       <li><Link to="/more">More</Link></li> 
-        </ul>
-      </nav>
-      <h2>Welcome to the Home page!</h2>
 
      
    </>
-   
+
 
   );
   
